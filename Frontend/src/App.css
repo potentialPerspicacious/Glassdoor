@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#root > div > div > div > div > div.row > div.col-4 > div > div > a.list-group-item.active.list-group-item-light.list-group-item-action {
+  color:black;
+  background-color: white !important;
+  border-color: rgb(221, 221, 222) !important;
+  border-bottom: 4px solid rgb(77, 166, 79) !important;;
+}
+
+#root > div > div > div > div.row > div.col-6 > div > div > a.list-group-item.active.list-group-item-light.list-group-item-action {
+  color:black;
+  background-color: white !important;
+  border-color: rgb(221, 221, 222) !important;
+  border-bottom: 4px solid rgb(77, 166, 79) !important;;
+}
+
+#root > div > div > div > div.row > div.col-4.contri > div > div > a.list-group-item.active.list-group-item-light.list-group-item-action {
+  color:black;
+  background-color: white !important;
+  border-color: rgb(221, 221, 222) !important;
+  border-bottom: 4px solid rgb(77, 166, 79) !important;;
+}
+#root > div > div > div > div.row > div.col-4.contri > div > div{
+  box-shadow: 0.5px 1px 1px 0.5px rgba(158, 155, 155, 0.89);;
+}
+#root > div > div > div > div.row > div.col-8.contri > div{
+  box-shadow: 0.5px 1px 1px rgba(158, 155, 155, 0.89);;
+}
+
+.optionContainer li:hover, .optionContainer .highlight {
+  background: rgb(77, 166, 79) !important ;
+  color: white !important;
+  /* font-weight: lighter !important; */
+}
+
+.optionContainer li, .optionContainer .highlight {
+  background: white !important ;
+  color: black !important;
+  /* font-weight: lighter !important; */
+}
+
+div.ReactTags__tagInput {
+  width: 200px !important;
+  border-radius: 2px !important;
+  display: inline-block !important;
+  margin-top: 10px !important ;
+}
+div.ReactTags__tagInput input.ReactTags__tagInputField,
+div.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+  height: 40px !important;
+  margin: 0 !important;
+  font-size: 15px !important;
+  width: 200% !important;
+  border: 1px solid rgb(219, 218, 218) !important;
+  padding: 0 4px !important;
+}
+
+div.ReactTags__selected span.ReactTags__tag {
+  border: 1px solid #ddd !important;
+  background:rgb(101, 182, 102) !important;
+  font-size: 15px !important;
+  display: inline-block !important;
+  padding: 5px 5px 5px 5px !important;
+  margin: 0 5px !important;
+  cursor: move;
+  border-radius: 3px !important;
+  margin-bottom: 3mm !important;
+  color: rgba(0, 0, 0, 0.76) !important;
+
+}
+div.ReactTags__selected a.ReactTags__remove {
+  color:rgba(0, 0, 0, 0.76) !important;
+  margin-left: 5px !important;
+  cursor: pointer !important;
+  margin-bottom: 3mm !important;
+}
+.btn.btn-link:focus,.btn.btn-link:active,.btn.btn-link:visited  {
+  outline: none !important;
+  box-shadow: none;
+}
+
+button:focus, button:active {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}
+
+.skill {
+  border:1px solid rgb(101, 182, 102);
+  padding: 5px 5px 5px 0px;
+  text-align: center;
+  margin-left: 3mm;
+  width:10%;
+  position: relative;
+  display: inline-block;
+  height: auto;
+  background-color:rgb(100, 190, 101) ;
+  border-radius: 3%;
+}
+body > div.fade.modal.show > div > div > div.modal-body > form > div > label > span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1{
+  margin-top: 1mm !important ;
+  margin-left: 0 !important;
+}
+body > div.fade.modal.show > div > div > div.modal-body > form > div > label{
+  margin: 0 !important ;
+}  
+.dropdown-toggle.btn.btn-link::after{
+  display: none ;
+}
+/* .star-ratings {
+  display: block !important;
+
+} */
+.pagination {
+  margin: 20px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: rgb(100, 190, 101) ;
+  border-color: rgb(100, 190, 101) ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid rgb(100, 190, 101) ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: rgb(100, 190, 101) ;
+  border-color: rgb(100, 190, 101);
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: rgb(100, 190, 101)
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+
+#root > div > div > div > div.container > div > div.card.text-center.m-3 > div > ul > li.page-item.number-item.active > a {
+  background-color: green !important;
+  border-color: green !important;
+}
+
+

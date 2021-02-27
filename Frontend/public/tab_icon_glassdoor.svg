@@ -1,0 +1,12 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0caa41;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>glassdoor-socialicon-rgb</title>
+  <path id="icon" class="cls-1" d="M332.28,57.72a54.85,54.85,0,0,1,54.85,54.85H167.72V337.83a2,2,0,0,1-2,2H114.86a2,2,0,0,1-2-2V112.58h0a54.85,54.85,0,0,1,54.85-54.85H332.28Zm0,329.13H112.86a54.85,54.85,0,0,0,54.85,54.85H332.28a54.85,54.85,0,0,0,54.85-54.85h0V161.59a2,2,0,0,0-2-2H334.28a2,2,0,0,0-2,2Z"/>
+</svg>

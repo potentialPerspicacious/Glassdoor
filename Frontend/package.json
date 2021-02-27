@@ -1,0 +1,87 @@
+{
+  "name": "glassdor-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "@types/jwt-decode": "^3.1.0",
+    "apexcharts": "^3.22.2",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "file-viewer": "^1.2.0",
+    "install": "^0.13.0",
+    "jwt-decode": "^3.1.2",
+    "material-ui": "^0.20.2",
+    "mdbreact": "^4.27.0",
+    "moment": "^2.29.1",
+    "multiselect-react-dropdown": "^1.6.1",
+    "npm": "^6.14.8",
+    "pdf-viewer-reactjs": "^2.1.2",
+    "query-string": "^6.13.7",
+    "react": "^17.0.1",
+    "react-apexcharts": "^1.3.7",
+    "react-bootstrap": "^1.4.0",
+    "react-currency-input-field": "^2.6.0",
+    "react-dnd": "^5.0.0",
+    "react-dnd-html5-backend": "^3.0.2",
+    "react-dom": "^17.0.1",
+    "react-dropdown": "^1.9.0",
+    "react-fontawesome": "^1.7.1",
+    "react-loader-spinner": "^3.1.14",
+    "react-modal": "^3.12.1",
+    "react-modal-login": "^1.4.5",
+    "react-paginate": "^6.5.0",
+    "react-pdf": "^5.0.0",
+    "react-pdf-scroll": "^1.0.0",
+    "react-read-more-read-less": "^1.0.7",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-spinners": "^0.9.0",
+    "react-star-ratings": "^2.3.0",
+    "react-tag-input": "^6.4.3",
+    "react-toast-notifications": "^2.4.0",
+    "react-toasts": "^3.0.6",
+    "reactstrap": "^8.7.1",
+    "redis": "^3.0.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
